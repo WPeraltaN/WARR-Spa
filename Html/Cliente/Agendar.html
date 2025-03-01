@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,6 +111,39 @@
             <div class="boton-reservar">
                 <a href="#">Reservar</a>
             </div>
+        </div>
+
+        <!-- POP UPS -->
+        <!-- Agregar fecha y hora -->
+        <div class="popup popup-agregarFechaHora">
+            <img src="../../Assets/Img/Logos/LOGO DEL PROYECTO FINAL SIN FONDO.png" alt="Logo de la pagina">
+            <img src="../../Assets/Icons/x.png" alt="X para salir">
+            <h1>Agendar Cita</h1>
+            <form action="">
+                <label for="fecha">Fecha: </label>
+                <input type="date" name="" id="fecha"><br>
+
+                <label for="hora">Hora: </label>
+                <input type="time" name="" id="hora">
+            </form>
+            <button>Agendar</button>
+        </div>
+
+        <!-- Agregar fecha y hora -->
+        <div class="popup popup-agendadaConExito">
+            <img src="../../Assets/Img/Logos/LOGO DEL PROYECTO FINAL SIN FONDO.png" alt="Logo de la pagina">
+            <img src="../../Assets/Icons/x.png" alt="X para salir">
+            <h1>Agendar Cita</h1>
+            <p>Cita Agendada con exito, Gracias por preferirnos</p>
+        </div>
+
+        <!-- Agregar fecha y hora -->
+        <div class="popup popup-horarioNoDisponible">
+            <img src="../../Assets/Img/Logos/LOGO DEL PROYECTO FINAL SIN FONDO.png" alt="Logo de la pagina">
+            <img src="../../Assets/Icons/x.png" alt="X para salir">
+            <h1>Agendar Cita</h1>
+            <p>La fecha y hora seleccionada <span>no está disponible</span>. Por favor, elige otro horario para reservar tu servicio y asegurarte una experiencia relajante en Warr Spa.</p>
+            <button>Elegir otro horario</button>
         </div>
     </main>
 </body>
