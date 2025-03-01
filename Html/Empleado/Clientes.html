@@ -8,8 +8,7 @@
 </head>
 <body>
     <!-- Sección de encabezado -->
-    <div class="encabezado">
-        <header>
+        <header class="encabezado">
             <img src="../../Assets/Img/Logos/LOGO DEL PROYECTO FINAL SIN FONDO.png" alt="Logo de la pagina"  class="logo-de-la-pagina">
             <h1>Clientes</h1>
             <!-- menú de navegación -->
@@ -26,10 +25,8 @@
                 </ul>
             </nav>
         </header>
-    </div>
 
-    <div class="contenido-principal">
-        <main>
+        <main class="contenido-principal">
             <!-- Sesión del Buscador -->
             <div class="buscador">
                 <table class="iconos-generales">
@@ -107,7 +104,77 @@
                     </tbody>
                 </table>
             </div>
+
+            <!-- Sección de popad -->
+
+            <div class="editar-cliente">
+                <form action="">
+
+                    <div class="nombre">
+                        <label for="">Nombre</label>
+                        <input type="text">
+                    </div>
+
+                   <div class="contraseña">
+                        <label for="">Contraseña</label>
+                        <input type="text">
+                   </div>
+
+                    <div class="telefono">
+                        <label for="">Teléfono</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="correo">
+                        <label for="">Correo</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="botones">
+                        <a href="#">Cancelar</a>
+                        <button>Confirmar</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Sesion de mensaje de alerta -->
+            <div class="mensaje-alerta">
+                <p>¿Está seguro que desea eliminar
+                el cliente “nombreCliente” ?</p>
+                <a href="#">Cancelar</a>
+                <button>Eliminar</button>
+            </div>
+
+            <!-- Sesion de añadir al cliente -->
+            
+            <div class="añadir-cliente">
+                <form action="">
+                    <div class="nombre">
+                        <label for="">Nombre</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="contraseña">
+                        <label for="">Contraseña</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="telefono">
+                        <label for="">Teléfono</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="correo">
+                        <label for="">Correo</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="botones">
+                        <a href="#">Cancelar</a>
+                        <button>Confirmar</button>
+                    </div>
+                </form>
+            </div>
         </main>
-    </div>
 </body>
 </html>
