@@ -1,1 +1,32 @@
 /* Esto es solo para poder subir la carpeta */
+img{
+    width: 250px;
+    height: auto;
+}
+
+.logo img{
+    height: auto;
+    margin-top: -30px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.navegacion{
+    position: absolute;
+    left: 20%;
+    top: 50px;
+}
+
+.navegacion ul{
+    display: flex;
+}
+
+.navegacion ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.navegacion ul li a {
+    color: black;
+    text-decoration: none;
+}
