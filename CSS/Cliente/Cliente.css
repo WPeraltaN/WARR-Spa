@@ -1,4 +1,9 @@
-/* Esto es solo para poder subir la carpeta */
+@import '../Global/fuentes.css';
+
+body {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
 img{
     width: 250px;
     height: auto;
@@ -6,7 +11,7 @@ img{
 
 .logo img{
     height: auto;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: 20px;
     width: 200px;
 }
@@ -14,7 +19,7 @@ img{
 .navegacion{
     position: absolute;
     left: 20%;
-    top: 50px;
+    top: 40px;
 }
 
 .navegacion ul{
@@ -22,11 +27,69 @@ img{
 }
 
 .navegacion ul li{
-    margin: 10px;
-    font-size: 20px;
+    margin: 10px 30px;
+    font-size: 16px;
 }
 
 .navegacion ul li a {
+    padding: 5px 5px;
     color: black;
     text-decoration: none;
+}
+
+header{
+    background: url(../../Assets/Img/menuDeNavegación/ImagenPrincipalDelMenuDeNavegación.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: Josefin-Sans;
+}
+
+.iniciarSesion{
+    position: absolute;
+    width: 110px;
+    left: 65vw;
+}
+
+.inicio{
+    border-bottom: 2px solid #9A5833;
+}
+
+.buscador{
+    margin-left: 82%;
+    margin-top: -110px;
+}
+
+.buscador img{
+    width: 25px;
+    height: 25px;
+}
+
+.slogan{
+    color: white;
+    font-size: 30px;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.slogan a{
+    background-color: #9A5833;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.slogan h1{
+    font-size: 40px;
+    font-family: Josefin-Sans;
+}
+
+.slogan h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.15);
 }

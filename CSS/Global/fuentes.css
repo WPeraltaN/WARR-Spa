@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(../../Assets/Fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Handlee;
+    src: url(../../Assets/Fonts/Handlee/Handlee-Regular.ttf);
+}
+
+@font-face {
+    font-family: Julius-Sans-One;
+    src: url(../../Assets/Fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kaushan-Script;
+    src: url(../../Assets/Fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
