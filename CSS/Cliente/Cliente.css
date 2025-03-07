@@ -11,15 +11,15 @@ img{
 
 .logo img{
     height: auto;
-    margin-top: -50px;
+    margin-top: -80px;
     margin-left: 20px;
-    width: 200px;
+    width: 250px;
 }
 
 .navegacion{
     position: absolute;
-    left: 20%;
-    top: 40px;
+    left: 25%;
+    top: 30px;
 }
 
 .navegacion ul{
@@ -28,7 +28,7 @@ img{
 
 .navegacion ul li{
     margin: 10px 30px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navegacion ul li a {
@@ -38,7 +38,7 @@ img{
 }
 
 header{
-    background: url(../../Assets/Img/menuDeNavegación/ImagenPrincipalDelMenuDeNavegación.jpg);
+    background-image: url(../../Assets/Img/menuDeNavegación/ImagenPrincipalDelMenuDeNavegación.jpg);
     background-size: cover;
     height: 100vh;
     font-family: Josefin-Sans;
@@ -46,8 +46,8 @@ header{
 
 .iniciarSesion{
     position: absolute;
-    width: 110px;
-    left: 65vw;
+    width: 130px;
+    left: 60vw;
 }
 
 .inicio{
@@ -55,8 +55,8 @@ header{
 }
 
 .buscador{
-    margin-left: 82%;
-    margin-top: -110px;
+    margin-left: 80%;
+    margin-top: -138px;
 }
 
 .buscador img{
@@ -67,14 +67,17 @@ header{
 .slogan{
     color: white;
     font-size: 30px;
-    margin-top: 30vh;
+    font-family: Kaushan-Script;
+    margin-top: 25vh;
     text-align: center;
 }
 
 .slogan a{
     background-color: #9A5833;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
     color: white;
+    font-family: Josefin-Sans;
     font-size: 20px;
     text-decoration: none;
     padding: 20px 50px;
@@ -82,14 +85,16 @@ header{
 
 .slogan h1{
     font-size: 40px;
-    font-family: Josefin-Sans;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 .slogan h2{
     margin-top: 10px;
     margin-bottom: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .menu{
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.10);
+    height: 95px;
 }
