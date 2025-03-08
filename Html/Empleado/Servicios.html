@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warr Spa - Servicios</title>
-    <link rel="icon" href="../../Assets/Img/logoSinTexto.png">
+    <link rel="icon" href="../../Assets/Img/Logos/logoSinTexto.png">
+    <link rel="stylesheet" href="../../CSS/Empleado/Servicios.css">
 </head>
 <body>
     <!-- Sección de encabezado -->
     <header class="encabezado">
+
         <img src="../../Assets/Img/Logos/LOGO DEL PROYECTO FINAL SIN FONDO.png" alt="Logo de la pagina"  class="logo-de-la-pagina">
+
         <h1>Servicios</h1>
+
         <!-- Menú de navegación -->
+
         <nav class="menu-navegacion">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Servicios.html" class="serviciosT">Servicios</a></li>
                 <li><a href="Empleados.html">Empleados</a></li>
                 <li><a href="inventario.html">Inventario</a></li>
                 <li><a href="Clientes.html">Clientes</a></li>
@@ -24,6 +29,7 @@
                 <li><a href="Citas.html">Citas</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main class="contenido-principal">
@@ -33,42 +39,56 @@
                 <tr class="icono-añadir">
                     <td><input type="text" placeholder="Buscar"></td>
                     <td><a href="#"><img src="../../Assets/Icons/añadir.png" alt="Icono de añadir"></a></td>
+                    <td><a href="#" class="añadir">Añadir</a></td>
                 </tr>
             </table>
         </div>
 
-        <div class="Servicio">
-            <img src="../../Assets/Img/Destacados/Masaje Relajante.jpg" alt="Imagen del Servicio" class="imagen-servicio">
+        <div class="contenedorMasajeRelajante">
+            <img src="../../Assets/Img/Destacados/Masaje Relajante.jpg" alt="Imagen del Servicio" class="imagen-servicio1">
             <h3>Masaje relajante</h3>
             <p class="descripcion-servicio">
-                Alivia el estrés y calma tu mente.
+                Alivia el estrés y calma tu mente. <br>
                 Perfecto para desconectar y realizarte
             </p>
+            <p class="hora-servicio">1h</p>
             <p class="precio-servicio">$ 2,500 RD</p>
-            <a href="#"><img src="../../Assets/Icons/editar.png" alt=""></a>
-            <a href="#"><img src="../../Assets/Icons/eliminar.png" alt=""></a>
+            <a href="#"> <img src="../../Assets/Icons/editar.png" alt="" class="editar"> </a>
+            <a href="#" class="eliminar"> <img src="../../Assets/Icons/eliminar.png" alt="" class="eliminar"> </a>
         </div>
         
-        <div class="Servicio">
-            <img src="../../Assets/Img/Faciales/Facial Aguapel.jpg" alt="Imagen del Servicio" class="imagen-servicio">
-            <h3>Facial Aquagel</h3>
+        <div class="contenedorFacialAguapel">
+            <img src="../../Assets/Img/Faciales/Facial Aguapel.jpg" alt="Imagen del Servicio" class="imagen-servicio2">
+            <h3>Facial Aguapel</h3>
             <p class="descripcion-servicio">
-                Revitaliza y refresca tu piel con nuestro exclusivo Facial Aguapel. Hidrata profundamente y deja tu rostro radiante.
+                Revitaliza y refresca tu piel con nuestro <br> exclusivo Facial Aguapel. <br> Hidrata profundamente y deja tu <br> rostro radiante.
             </p>
+            <p class="hora-servicio">48 min</p>
             <p class="precio-servicio">$ 6,000 RD</p>
-            <a href="#"><img src="../../Assets/Icons/editar.png" alt=""></a>
-            <a href="#"><img src="../../Assets/Icons/eliminar.png" alt=""></a>
+            <a href="#"><img src="../../Assets/Icons/editar.png" alt="Icono de editar" class="editar"></a>
+            <a href="#" class="eliminar"><img src="../../Assets/Icons/eliminar.png" alt="Icono de eliminar" class="eliminar"></a>
         </div>
 
-        <div class="Servicio">
-            <img src="../../Assets/img/Spa pareja/Sauna Jacuzzi.jpg" alt="Imagen del Servicio" class="imagen-servicio">
+        <div class="contenedorSaunaJacuzzi">
+            <img src="../../Assets/Img/Spa pareja/Sauna Jacuzzi.jpg" alt="Imagen del Servicio" class="imagen-servicio3">
             <h3>Sauna jacuzzi</h3>
             <p class="descripcion-servicio">
-                Relájate en nuestro sauna jacuzzi. Alivia el estrés y disfruta de una experiencia de puro bienestar.
+                Relájate en nuestro sauna jacuzzi. <br> Alivia el estrés y disfruta de una <br>experiencia de puro bienestar.
             </p>
+            <p class="hora-servicio">1h</p>
             <p class="precio-servicio">$ 5,500 RD</p>
-            <a href="#"><img src="../../Assets/Icons/editar.png" alt=""></a>
-            <a href="#"><img src="../../Assets/Icons/eliminar.png" alt=""></a>
+            <a href="#"><img src="../../Assets/Icons/editar.png" alt="Icono de editar" class="editar"></a>
+            <a href="#" class="eliminar"><img src="../../Assets/Icons/eliminar.png" alt="Icono de eliminar" class="eliminar"></a>
+        </div>
+
+        <div class="conetendroSpaEmpresarial">
+            <img src="../../Assets/Img/Spa Grupal/Spa empresarial.jpg" alt="Spa empresarial" class="imagen-servicio4">
+            <h3>Spa Empresarial</h3>
+            <p class="descripcion-servicio">Escapa del estrés laboral. Promueve <br> bienestar y productividad con nuestros <br> tratamientos.</p>
+            <p class="hora-servicio">2h</p>
+            <p class="precio-servicio">$ 2, 000 RD</p>
+            <a href="#"> <img src="../../Assets/Icons/editar.png" alt="Icono de editar" class="editar"></a>
+            <a href="#" class="eliminar"><img src="../../Assets/Icons/eliminar.png" alt="Icono de eliminar" class="eliminar"></a>
         </div>
 
         <!-- Sección de popup -->
@@ -76,30 +96,37 @@
         <!-- Editar servicio -->
         <div class="editar-servicio">
             <h2>Editar Servicio</h2>
-            <form action="">
-                <label for="">Nombre</label>
-                <input type="text">
+            <form action="" class="contenedor-formulario">
+                <label for="" class="nombre">Nombre</label>
+                <input type="text" class="input1">
         
-                <label for="">Descripción</label>
-                <input type="text">
+                <label for="" class="descripcion">Descripción</label>
+                <input type="text" class="input2">
         
-                <label for="">Duración</label>
-                <input type="text">
+                <label for="" class="duracion">Duración</label>
+                <input type="text" class="input3">
         
-                <label for="">Precio</label>
-                <input type="text">
+                <label for="" class="precio">Precio</label>
+                <input type="text" class="input4">
         
-                <a href="">Cancelar</a>
-                <button>Confirmar</button>
+                <a href="" class="cancelar">Cancelar</a>
+                <button class="confirmar">Confirmar</button>
+                <figure>
+                    <a href="#"><img src="#" alt="Imagen agregar foto"></a>
+                    <a href="#"><img src="../../Assets/Icons/x.png" alt="" class="x"></a>
+                </figure>
             </form>
         </div>
         
         <!--Sección de mensaje de alerta -->
         <div class="eliminar-servicio">
-            <p class="mensaje">¿Está seguro que desea eliminar
+            <p class="mensaje-alerta">¿Está seguro que desea eliminar <br>
                 el servicio “nombreServicio” ?</p>
             <a href="#" class="cancelar">Cancelar</a>
             <button class="eliminar">Eliminar</button>
+            <figure>
+                <a href="#"><img src="../../Assets/Icons/x.png" alt="" class="x"></a>
+            </figure>
         </div>
     </main>
-</body>
+</body>fig

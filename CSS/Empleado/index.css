@@ -1,0 +1,266 @@
+@import url(../Global/fuentes.css);
+
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sesion de enbezado */
+
+.logo-de-la-pagina {
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 200px;
+    margin: 70px;
+    margin-top: 5px;
+}
+
+header {
+    background-color: #9A5833;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -168px;
+    color: white;
+    font-family: Josefin-Sans;
+    font-size: 28pt;
+}
+
+/* Sesion de boton de servicios */
+
+.contenedorServicios {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    width: 320px;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.servicios img {
+    width: 115px;
+    margin-left: 75px;
+}
+
+.servicios figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorServicios a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sesion de boton de seguridad */
+
+.contenedorSeguridad {
+    background-color: rgba(255, 255, 255);
+    border: 1px solid black;
+    width: 320px;
+    margin: 100px;
+    margin-left: 560px;
+    margin-top: -296px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+.seguridad img {
+    width: 115px;
+    margin-left: 75px;
+}
+
+.seguridad figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorSeguridad a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Sesion de boton de citas */
+
+.contenedorCitas {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: 1000px;
+    margin-top: -296px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.citas img {
+    width: 115px;
+    margin-left: 70px;
+}
+
+.citas figcaption  h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorCitas a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sesion de boton de empleado */
+
+.contenedorEmpleado {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.empleado img {
+    width: 115px;
+    margin-left: 75px;
+}
+
+.empleado figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorEmpleado a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sesion de boton de promociones */
+
+.contenedorPromociones {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: 560px;
+    margin-top: -194px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.promociones img {
+    width: 115px;
+    margin-left: 70px;
+}
+
+.promociones figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorPromociones a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sesion de boton de inventario */
+
+.contenedorInventario {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: 1001px;
+    margin-top: -194px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.inventario img {
+    width: 115px;
+    margin-left: 70px;
+}
+
+.inventario figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorInventario a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sesion de boton de cliente */
+
+.contenedorClientes {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.clientes img {
+    width: 115px;
+    margin-left: 70px;
+}
+
+.clientes figcaption h2 {
+    text-align: center;
+    font-family: Josefin-Sans;
+    font-size: 25pt;
+    font-weight: 0;
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+
+.contenedorClientes a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
